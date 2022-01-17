@@ -9,7 +9,7 @@ For information regarding control values, karnaugh maps, or branch logic, please
 3. Open PHSingleCycleCPU.jls in jls
 
 ## How to Test
-1. Navigate your current directory to the "Tests" folder
+1. Navigate your current directory to the "Tests" folder in this repo
 2. Use:<br/>
 ```
 ./CPUTest SingleCycleCPU.jls [assembly file]
