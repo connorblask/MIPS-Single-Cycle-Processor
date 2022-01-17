@@ -14,5 +14,6 @@ For information regarding control values, karnaugh maps, or branch logic, please
 ```
 ./CPUTest SingleCycleCPU.jls [assembly file]
 ```
-Make sure to test this CPU using only compatible assembly files with compatible instructions. If the assembly file is not compatible, the tests _will not_ work. <br/>
+Make sure to test this CPU using only compatible assembly files with compatible instructions. <br/>
+If the assembly file is not compatible, the tests _will not_ work. <br/>
 For additional information on instruction compatibility, please see MIPS-Control-Table.xlsx
