@@ -11,9 +11,9 @@ For information regarding control values, karnaugh maps, or branch logic, please
 ## How to Test
 1. Navigate your current directory to the "Tests" folder
 2. Use:<br/>
-'''
+```
 ./CPUTest SingleCycleCPU.jls [assembly file]
-'''
+```
 <br/>
 **Make sure to test this CPU using only compatible assembly files with compatible instructions. If the assembly file is not compatible, the tests _will not_ work.**<br/>
 For additional information on instruction compatibility, please see MIPS-Control-Table.xlsx
