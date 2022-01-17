@@ -3,5 +3,5 @@ This repo contains a single cycle MIPS processor I made. All files are availible
 
 ## How to use
 1. Download the latest version of jdk (you can find that [here](https://www.oracle.com/java/technologies/downloads/))
-2. Download jls.jar
+2. Download jls.jar from this repository
 3. Open PHSingleCycleCPU.jls in jls
