@@ -1,0 +1,8 @@
+
+# This script launches the JLS circuit tester, provided JLS.jar and 
+# JLSCircuitTester.jar are in the same directory 
+
+dir=`dirname $0`
+#echo "Dirname is " $dir
+java -Xmx256m -cp $dir/JLS.jar:$dir/jlsCircuitTester.jar:$dir/Mars.jar:.:$JLSCT_CLASSPATH -ea edu.gvsu.cis.kurmasz.jls.JLSMipsCpuTester "$@"
+exit $?  # causes the script to have the same exit value as the JVM.
